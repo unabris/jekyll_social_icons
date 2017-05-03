@@ -1,0 +1,3 @@
+module JekyllSocialIcons
+  VERSION = '0.1.0'
+end
