@@ -10,6 +10,10 @@ module Jekyll
       class
       width
       height
+      align
+      margin
+      radius
+      size
     ).freeze
 
     class << self
