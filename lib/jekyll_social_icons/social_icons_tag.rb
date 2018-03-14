@@ -27,7 +27,7 @@ module Jekyll
       socials.each do |social, url|
         data += "<div class='social #{social}' style='#{icons_size}#{margin}#{radius}'>
                  <a href='#{url}' target='_blank'>
-                 <i class='fa fa-fw fa-#{icons_json[social]}' style='#{font_size}'></i>
+                 <i class='fa fa-fw fa-#{icons_json[social]}' style='#{size}'></i>
                  </a></div>"
       end
       data += '</div>'
